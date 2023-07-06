@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up-Form</title>
+    <link href="stylesheet.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,200;0,400;0,800;1,400&display=swap" rel="stylesheet">
+    <script src="sign-up.js" defer></script>
+<body>
+    <div class="photo-container">
+        <div class="logo-area">
+            Jared.dev
+        </div>
+    </div>
+    <div class="form-container">
+        <div class="description">
+            <p>
+                <strong>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</strong>
+            </p>
+
+            <strong>You <em>know</em> you want to.</strong>
+        </div>
+        <div class="form">
+            <form>
+                <h1>Let's do this!</h1>
+                <div class="name component">
+                    <div class="first-name item">
+                        <label for="first-name">FIRST NAME</label>
+                        <input id="first-name" value="" name="first-name" type="text" placeholder="Jared" minlength="1" required>
+                    </div>
+                    <div class="last-name item">
+                        <label for="last-name">LAST NAME</label>
+                        <input id="last-name" value="" name="last-name" type="text" placeholder="Buabeng" required>
+                    </div>
+                </div>
+                <div class="personal-information component">
+                    <div class="email item">
+                        <label for="email">EMAIL</label>
+                        <input id="email" value="" name="email" type="email" placeholder="buabengjared@gmail.com" required>
+                    </div>
+                    <div class="phone-number item">
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input id="phone-number" value="" name="phone-number" placeholder="911" type="tel" required>
+                    </div>
+                </div>
+                <div class="passwords component">
+                    <div class="password item">
+                        <label for="password">PASSWORD</label>
+                        <input id="password" value="" name="password" type="password" required>
+                    </div>
+                    <div class="confirm-password item">
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input id="confirm-password" value="" name="confirm-password" type="password" required>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="form-buttons">
+            <button type="submit">Create Account</button>
+            <p>
+                Already have an account?
+                <a href="#" class="log-in">Log in</a>
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>
